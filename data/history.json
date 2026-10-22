@@ -1,0 +1,63 @@
+[
+  {
+    "id": "brand-logos-001",
+    "status": "draft",
+    "category": "brand-logos",
+    "date": "2026-10-21T22:13:07.781Z",
+    "title": "Can You Guess All 10 Brand Logos?",
+    "items": [
+      "apple",
+      "nike",
+      "spotify",
+      "mcdonalds",
+      "adidas",
+      "snapchat",
+      "playstation",
+      "shell",
+      "puma",
+      "pinterest"
+    ],
+    "assets": [
+      {
+        "asset": "brand-logos-001/apple.svg",
+        "source": "https://www.apple.com"
+      },
+      {
+        "asset": "brand-logos-001/nike.svg",
+        "source": "https://www.nike.com"
+      },
+      {
+        "asset": "brand-logos-001/spotify.svg",
+        "source": "https://developer.spotify.com/documentation/general/design-and-branding/#using-our-logo"
+      },
+      {
+        "asset": "brand-logos-001/mcdonalds.svg",
+        "source": "https://www.mcdonalds.com/gb/en-gb/newsroom.html"
+      },
+      {
+        "asset": "brand-logos-001/adidas.svg",
+        "source": "https://www.adidas.com"
+      },
+      {
+        "asset": "brand-logos-001/snapchat.svg",
+        "source": "https://www.snapchat.com/brand-guidelines"
+      },
+      {
+        "asset": "brand-logos-001/playstation.svg",
+        "source": "https://www.playstation.com/en-us/"
+      },
+      {
+        "asset": "brand-logos-001/shell.svg",
+        "source": "https://en.wikipedia.org/wiki/File:Shell_logo.svg"
+      },
+      {
+        "asset": "brand-logos-001/puma.svg",
+        "source": "https://us.puma.com"
+      },
+      {
+        "asset": "brand-logos-001/pinterest.svg",
+        "source": "https://business.pinterest.com/en/brand-guidelines"
+      }
+    ]
+  }
+]

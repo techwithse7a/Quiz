@@ -1,0 +1,18 @@
+import fs from 'node:fs';
+import {execFileSync} from 'node:child_process';
+import {readWav,levels} from './logo-audio-utils.mjs';
+const base='node_modules/@remotion/compositor-win32-x64-msvc/';
+const file=process.argv[2]||'out/play-with-momo-brand-logos-001-audio-fixed.mp4';
+const q=JSON.parse(fs.readFileSync('src/logo-data.json'));
+execFileSync(base+'ffmpeg.exe',['-v','error','-i',file,'-vn','-c:a','pcm_s16le','-y','out/audio-verified.wav']);
+const {samples,rate}=readWav('out/audio-verified.wav');
+const meta=JSON.parse(execFileSync(base+'ffprobe.exe',['-v','error','-show_streams','-show_format','-of','json',file]));
+const video=meta.streams.find(s=>s.codec_type==='video');
+if(video.width!==1080||video.height!==1920)throw Error('Wrong dimensions');
+if(Math.abs(Number(meta.format.duration)-q.durationInFrames/30)>.15)throw Error('Duration mismatch');
+const slots=q.events.map(e=>({kind:e.kind,text:e.text,...levels(samples.subarray(Math.round(e.start/30*rate),Math.round((e.start+e.duration)/30*rate)))}));
+if(slots.some(s=>s.peakDb < -45))throw Error('Silent event found');
+if(levels(samples).peakDb>-.1)throw Error('Clipping risk');
+execFileSync(base+'ffmpeg.exe',['-v','error','-i',file,'-c:v','rawvideo','-c:a','pcm_s16le','-f','null','-']);
+const report={file,width:video.width,height:video.height,duration:Number(meta.format.duration),fullDecodePassed:true,exportedAudio:levels(samples),slots,voiceProvider:q.config.voice};
+fs.writeFileSync('data/logo-audio-export-validation.json',JSON.stringify(report,null,2));console.log(JSON.stringify({...report,slots:slots.length},null,2));

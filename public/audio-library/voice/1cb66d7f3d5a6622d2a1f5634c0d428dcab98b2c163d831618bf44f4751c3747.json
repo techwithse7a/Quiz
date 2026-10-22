@@ -1,0 +1,11 @@
+{
+  "text": "How many did you get right? Comment your score, and follow Play With Momo!",
+  "voice": "George - Warm, Captivating Storyteller",
+  "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+  "modelId": "eleven_flash_v2_5",
+  "voiceSettings": {
+    "stability": 0.5,
+    "similarityBoost": 0.75,
+    "speed": 1.05
+  }
+}

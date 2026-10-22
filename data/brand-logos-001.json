@@ -1,0 +1,345 @@
+{
+  "id": "brand-logos-001",
+  "brand": "Play With Momo",
+  "category": "brand-logos",
+  "title": "Can You Guess All 10 Brand Logos?",
+  "createdAt": "2026-10-22T11:21:33.980Z",
+  "config": {
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "guessSeconds": 3.5,
+    "revealSeconds": 1.35,
+    "challengeEnabled": true,
+    "musicEnabled": false,
+    "voice": "George - Warm, Captivating Storyteller",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "speechSpeed": 1,
+    "background": "#102653",
+    "accent": "#E828FF",
+    "answerColor": "#8DFF68"
+  },
+  "questions": [
+    {
+      "id": "apple",
+      "answer": "Apple",
+      "asset": "brand-logos-001/apple.svg",
+      "source": "https://www.apple.com",
+      "library": "Simple Icons",
+      "license": {
+        "type": "Not supplied by source; trademark rights reserved"
+      },
+      "guidelines": null
+    },
+    {
+      "id": "nike",
+      "answer": "Nike",
+      "asset": "brand-logos-001/nike.svg",
+      "source": "https://www.nike.com",
+      "library": "Simple Icons",
+      "license": {
+        "type": "Not supplied by source; trademark rights reserved"
+      },
+      "guidelines": null
+    },
+    {
+      "id": "spotify",
+      "answer": "Spotify",
+      "asset": "brand-logos-001/spotify.svg",
+      "source": "https://developer.spotify.com/documentation/general/design-and-branding/#using-our-logo",
+      "library": "Simple Icons",
+      "license": {
+        "type": "Not supplied by source; trademark rights reserved"
+      },
+      "guidelines": "https://developer.spotify.com/documentation/general/design-and-branding/#using-our-logo"
+    },
+    {
+      "id": "mcdonalds",
+      "answer": "McDonald’s",
+      "asset": "brand-logos-001/mcdonalds.svg",
+      "source": "https://www.mcdonalds.com/gb/en-gb/newsroom.html",
+      "library": "Simple Icons",
+      "license": {
+        "type": "Not supplied by source; trademark rights reserved"
+      },
+      "guidelines": null
+    },
+    {
+      "id": "adidas",
+      "answer": "Adidas",
+      "asset": "brand-logos-001/adidas.svg",
+      "source": "https://www.adidas.com",
+      "library": "Simple Icons",
+      "license": {
+        "type": "Not supplied by source; trademark rights reserved"
+      },
+      "guidelines": null
+    },
+    {
+      "id": "snapchat",
+      "answer": "Snapchat",
+      "asset": "brand-logos-001/snapchat.svg",
+      "source": "https://www.snapchat.com/brand-guidelines",
+      "library": "Simple Icons",
+      "license": {
+        "type": "Not supplied by source; trademark rights reserved"
+      },
+      "guidelines": "https://www.snapchat.com/brand-guidelines"
+    },
+    {
+      "id": "playstation",
+      "answer": "PlayStation",
+      "asset": "brand-logos-001/playstation.svg",
+      "source": "https://www.playstation.com/en-us/",
+      "library": "Simple Icons",
+      "license": {
+        "type": "Not supplied by source; trademark rights reserved"
+      },
+      "guidelines": null
+    },
+    {
+      "id": "shell",
+      "answer": "Shell",
+      "asset": "brand-logos-001/shell.svg",
+      "source": "https://en.wikipedia.org/wiki/File:Shell_logo.svg",
+      "library": "Simple Icons",
+      "license": {
+        "type": "Not supplied by source; trademark rights reserved"
+      },
+      "guidelines": null
+    },
+    {
+      "id": "puma",
+      "answer": "Puma",
+      "asset": "brand-logos-001/puma.svg",
+      "source": "https://us.puma.com",
+      "library": "Simple Icons",
+      "license": {
+        "type": "Not supplied by source; trademark rights reserved"
+      },
+      "guidelines": null
+    },
+    {
+      "id": "pinterest",
+      "answer": "Pinterest",
+      "asset": "brand-logos-001/pinterest.svg",
+      "source": "https://business.pinterest.com/en/brand-guidelines",
+      "library": "Simple Icons",
+      "license": {
+        "type": "Not supplied by source; trademark rights reserved"
+      },
+      "guidelines": "https://business.pinterest.com/en/brand-guidelines"
+    }
+  ],
+  "events": [
+    {
+      "kind": "intro",
+      "text": "Can you name ten brand logos? Let’s find out!",
+      "start": 0,
+      "duration": 96,
+      "index": -1,
+      "audio": "audio-library/voice/fb24f6bdeaa8969fde7e4ab516d738147ae850ea00f971c95f2e8d184b523226.wav"
+    },
+    {
+      "kind": "challenge",
+      "text": "Think you can get a perfect ten?",
+      "start": 96,
+      "duration": 66,
+      "index": -1,
+      "audio": "audio-library/voice/c757189feb83d61a137bca5233bc40fa5c7b1f30994b2e62fbe651287fc1bcfc.wav"
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #1",
+      "start": 162,
+      "duration": 105,
+      "index": 0,
+      "audio": null
+    },
+    {
+      "kind": "reveal",
+      "text": "Apple",
+      "start": 267,
+      "duration": 47,
+      "index": 0,
+      "audio": "audio-library/voice/4ca409a59df74559ef1339d5b764b755b2b36a82a340ba96f6c6aa1dd7707bdc.wav"
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #2",
+      "start": 314,
+      "duration": 105,
+      "index": 1,
+      "audio": null
+    },
+    {
+      "kind": "reveal",
+      "text": "Nike",
+      "start": 419,
+      "duration": 47,
+      "index": 1,
+      "audio": "audio-library/voice/27e52018ea3a0b98f8ed764cd55824eb4fb9dd808196b5eadabf6ac9862f74a3.wav"
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #3",
+      "start": 466,
+      "duration": 105,
+      "index": 2,
+      "audio": null
+    },
+    {
+      "kind": "reveal",
+      "text": "Spotify",
+      "start": 571,
+      "duration": 47,
+      "index": 2,
+      "audio": "audio-library/voice/6676101474cec7f15eec6224868a845752476c20635b98bce642efe755765b04.wav"
+    },
+    {
+      "kind": "engagement",
+      "text": "Like the video if you're enjoying the challenge!",
+      "start": 618,
+      "duration": 79,
+      "index": -1,
+      "audio": "audio-library/voice/2990529dfcfb31ace7203528d060a77ef32be096b3beaf81b8177d38fa0ca7a6.wav"
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #4",
+      "start": 697,
+      "duration": 105,
+      "index": 3,
+      "audio": null
+    },
+    {
+      "kind": "reveal",
+      "text": "McDonald’s",
+      "start": 802,
+      "duration": 47,
+      "index": 3,
+      "audio": "audio-library/voice/7324b97e00a700c05f3647c68ace369e515925d441b76009e7500d6ce5f5af5c.wav"
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #5",
+      "start": 849,
+      "duration": 105,
+      "index": 4,
+      "audio": null
+    },
+    {
+      "kind": "reveal",
+      "text": "Adidas",
+      "start": 954,
+      "duration": 47,
+      "index": 4,
+      "audio": "audio-library/voice/6613f8c9a740af4819c4df75d455993ea2589d510cdc2747d488f773d0d843e3.wav"
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #6",
+      "start": 1001,
+      "duration": 105,
+      "index": 5,
+      "audio": null
+    },
+    {
+      "kind": "reveal",
+      "text": "Snapchat",
+      "start": 1106,
+      "duration": 47,
+      "index": 5,
+      "audio": "audio-library/voice/55d192fc7d5e7308755c4da554ac3a904c66824bfe1655ca18a3b2f3ab126d76.wav"
+    },
+    {
+      "kind": "engagement",
+      "text": "Subscribe to Play With Momo for more quizzes!",
+      "start": 1153,
+      "duration": 91,
+      "index": -1,
+      "audio": "audio-library/voice/17417cb389ae900c8231e1ac4f3df0d9f9478b6394cefc656cc04559538ea32d.wav"
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #7",
+      "start": 1244,
+      "duration": 105,
+      "index": 6,
+      "audio": null
+    },
+    {
+      "kind": "reveal",
+      "text": "PlayStation",
+      "start": 1349,
+      "duration": 47,
+      "index": 6,
+      "audio": "audio-library/voice/733a0e59679278f8b41c189fbe9803a8a11516141efb8966e794d88b00195eb8.wav"
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #8",
+      "start": 1396,
+      "duration": 105,
+      "index": 7,
+      "audio": null
+    },
+    {
+      "kind": "reveal",
+      "text": "Shell",
+      "start": 1501,
+      "duration": 47,
+      "index": 7,
+      "audio": "audio-library/voice/be2fde56e9f7704b1172d7da34c394dda1e5c27e967ff338c6c3eb951ec6165b.wav"
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #9",
+      "start": 1548,
+      "duration": 105,
+      "index": 8,
+      "audio": null
+    },
+    {
+      "kind": "reveal",
+      "text": "Puma",
+      "start": 1653,
+      "duration": 47,
+      "index": 8,
+      "audio": "audio-library/voice/82c380832c0b234ff17f05a0075116e7b43aa892f1f1983dd8e633d73eef6cc7.wav"
+    },
+    {
+      "kind": "engagement",
+      "text": "Final question! Can you get this one?",
+      "start": 1700,
+      "duration": 72,
+      "index": -1,
+      "audio": "audio-library/voice/238ef04320ccb65adf4ca2181a8ff8ef7e4e0f97f38e759258c25e966b73169e.wav"
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #10",
+      "start": 1772,
+      "duration": 105,
+      "index": 9,
+      "audio": null
+    },
+    {
+      "kind": "reveal",
+      "text": "Pinterest",
+      "start": 1877,
+      "duration": 47,
+      "index": 9,
+      "audio": "audio-library/voice/79a6a103369df7462f2fb65f5dd268996b1023c3cc6e2f357582967702964395.wav"
+    },
+    {
+      "kind": "outro",
+      "text": "How many did you get right? Comment your score, and follow Play With Momo!",
+      "start": 1924,
+      "duration": 136,
+      "index": -1,
+      "audio": "audio-library/voice/1cb66d7f3d5a6622d2a1f5634c0d428dcab98b2c163d831618bf44f4751c3747.wav"
+    }
+  ],
+  "durationInFrames": 2060
+}

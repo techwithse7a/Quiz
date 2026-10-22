@@ -1,0 +1,170 @@
+{
+  "file": "out/play-with-momo-george-cta.mp4",
+  "width": 1080,
+  "height": 1920,
+  "duration": 68.672,
+  "fullDecodePassed": true,
+  "exportedAudio": {
+    "peakDb": -5.344627475392864,
+    "rmsDb": -24.761977167724893
+  },
+  "slots": [
+    {
+      "kind": "intro",
+      "text": "Can you name ten brand logos? Let’s find out!",
+      "peakDb": -6.06418092316367,
+      "rmsDb": -20.741359942260765
+    },
+    {
+      "kind": "challenge",
+      "text": "Think you can get a perfect ten?",
+      "peakDb": -5.344627475392864,
+      "rmsDb": -21.411353675695295
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #1",
+      "peakDb": -23.169370679331735,
+      "rmsDb": -45.84811449465688
+    },
+    {
+      "kind": "reveal",
+      "text": "Apple",
+      "peakDb": -5.919403937891579,
+      "rmsDb": -24.55812021212477
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #2",
+      "peakDb": -23.146492993661386,
+      "rmsDb": -45.85374926505652
+    },
+    {
+      "kind": "reveal",
+      "text": "Nike",
+      "peakDb": -6.925506304119494,
+      "rmsDb": -23.67295662099628
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #3",
+      "peakDb": -23.169370679331735,
+      "rmsDb": -45.8481144909548
+    },
+    {
+      "kind": "reveal",
+      "text": "Spotify",
+      "peakDb": -5.838041581022506,
+      "rmsDb": -22.66710959809272
+    },
+    {
+      "kind": "engagement",
+      "text": "Like the video if you're enjoying the challenge!",
+      "peakDb": -6.699026234554118,
+      "rmsDb": -20.486405770585584
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #4",
+      "peakDb": -23.184656014799657,
+      "rmsDb": -45.86405597920017
+    },
+    {
+      "kind": "reveal",
+      "text": "McDonald’s",
+      "peakDb": -5.570699426644245,
+      "rmsDb": -22.45153889213999
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #5",
+      "peakDb": -23.150301759185282,
+      "rmsDb": -45.8605822400355
+    },
+    {
+      "kind": "reveal",
+      "text": "Adidas",
+      "peakDb": -5.38148941912419,
+      "rmsDb": -23.63546828347566
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #6",
+      "peakDb": -23.184656014799657,
+      "rmsDb": -45.86405594390101
+    },
+    {
+      "kind": "reveal",
+      "text": "Snapchat",
+      "peakDb": -5.550587372186753,
+      "rmsDb": -22.943546999013815
+    },
+    {
+      "kind": "engagement",
+      "text": "Subscribe to Play With Momo for more quizzes!",
+      "peakDb": -5.993076047397684,
+      "rmsDb": -20.456192145307504
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #7",
+      "peakDb": -23.146492993661386,
+      "rmsDb": -45.85143177040379
+    },
+    {
+      "kind": "reveal",
+      "text": "PlayStation",
+      "peakDb": -5.689297264923276,
+      "rmsDb": -22.116198506178574
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #8",
+      "peakDb": -23.169370679331735,
+      "rmsDb": -45.850430357315744
+    },
+    {
+      "kind": "reveal",
+      "text": "Shell",
+      "peakDb": -5.710244981035681,
+      "rmsDb": -23.799931917428637
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #9",
+      "peakDb": -23.146492993661386,
+      "rmsDb": -45.851431742616924
+    },
+    {
+      "kind": "reveal",
+      "text": "Puma",
+      "peakDb": -5.797644430404939,
+      "rmsDb": -24.174211779620663
+    },
+    {
+      "kind": "engagement",
+      "text": "Final question! Can you get this one?",
+      "peakDb": -5.51150230613363,
+      "rmsDb": -20.831739746933575
+    },
+    {
+      "kind": "guess",
+      "text": "LOGO #10",
+      "peakDb": -23.146492993661386,
+      "rmsDb": -45.85143174446938
+    },
+    {
+      "kind": "reveal",
+      "text": "Pinterest",
+      "peakDb": -5.727142110074564,
+      "rmsDb": -22.72088662645619
+    },
+    {
+      "kind": "outro",
+      "text": "How many did you get right? Comment your score, and follow Play With Momo!",
+      "peakDb": -5.44426794037283,
+      "rmsDb": -20.534039243829834
+    }
+  ],
+  "voiceProvider": "George - Warm, Captivating Storyteller"
+}

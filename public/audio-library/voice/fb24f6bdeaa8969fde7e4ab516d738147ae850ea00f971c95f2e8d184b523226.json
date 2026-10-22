@@ -1,0 +1,11 @@
+{
+  "text": "Can you name ten brand logos? Let's find out!",
+  "voice": "George - Warm, Captivating Storyteller",
+  "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+  "modelId": "eleven_flash_v2_5",
+  "voiceSettings": {
+    "stability": 0.5,
+    "similarityBoost": 0.75,
+    "speed": 1.05
+  }
+}

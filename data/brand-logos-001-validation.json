@@ -1,0 +1,15 @@
+{
+  "questions": 10,
+  "unique": 10,
+  "assetsPresent": true,
+  "unwantedRepeats": [],
+  "missingNarration": [],
+  "durationSeconds": 68.66666666666667,
+  "resolution": "1080x1920",
+  "captionMode": "Phrase-level captions use the same event boundaries as narration",
+  "status": "ready-for-render",
+  "warnings": [
+    "Individual trademark permissions are not granted by the icon-library license.",
+    "No prior published-video history was supplied; duplicate prevention covers local records."
+  ]
+}

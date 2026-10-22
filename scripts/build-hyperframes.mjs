@@ -1,0 +1,23 @@
+import fs from 'node:fs';
+const q=JSON.parse(fs.readFileSync('data/brand-logos-001.json'));
+const dir='hyperframes/brand-logos-001';fs.mkdirSync(dir,{recursive:true});
+fs.cpSync('public/brand-logos-001',dir+'/assets',{recursive:true});
+fs.copyFileSync('node_modules/gsap/dist/gsap.min.js',dir+'/gsap.min.js');
+fs.copyFileSync('node_modules/@fontsource/poppins/files/poppins-latin-700-normal.woff2',dir+'/assets/poppins-latin-700-normal.woff2');
+const esc=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let html=`<!doctype html><html lang="en"><meta charset="utf-8"><title>Play With Momo — Brand Logos</title><style>
+*{box-sizing:border-box}body{margin:0;background:#060e27;color:white;font-family:Poppins,sans-serif;font-weight:700}#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:radial-gradient(ellipse at 65% 35%,#255694,#112a56 55%,#060e27)}.clip{position:absolute}.brand{top:90px;left:62px;font:700 30px Poppins;letter-spacing:5px;color:#98d5ff}.title{top:160px;left:48px;right:48px;border-radius:28px;padding:22px 8px;background:#d91bfa;box-shadow:0 12px #750a9e;text-align:center;font-size:72px;color:#fff15c}.stroke{-webkit-text-stroke:3px #060d23;paint-order:stroke fill;text-shadow:0 5px #060d23}.caption{top:315px;left:66px;right:66px;height:170px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:54px;line-height:1.12}.row{left:70px;width:400px;height:85px;font-size:38px;color:#8dff68}.number{color:white;display:inline-block;width:75px;font-size:65px}.card{left:482px;top:635px;width:532px;height:650px;border-radius:46px;border:9px solid #d9e6ff;background:white;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:45px;box-shadow:0 22px #060d2366}.card img{width:390px;height:390px;object-fit:contain}.answer{font:700 43px Poppins;color:#14214a}.timer{left:80px;top:493px;width:920px;height:34px;background:white;border-radius:30px;padding:5px}.fill{height:24px;background:#86ff55;border-radius:30px;transform-origin:left}.message{left:500px;right:65px;top:700px;text-align:center;font-size:48px}.big{font-size:190px;color:#fff15c}.footer{bottom:270px;width:100%;text-align:center;font:700 32px Poppins;letter-spacing:4px;color:#8cb7e4}
+</style><div id="stage" data-composition-id="momo-logos" data-start="0" data-width="1080" data-height="1920" data-fps="30" data-duration="${q.durationInFrames/30}">`;
+const duration=q.durationInFrames/30;
+const clip=(id,cls,start,dur,track,body)=>`<div id="${id}" class="clip ${cls}" data-start="${start}" data-duration="${dur}" data-track-index="${track}">${body}</div>`;
+html+=clip('brand','brand',0,duration,1,'PLAY WITH MOMO')+clip('title','title stroke',0,duration,2,'GUESS THE LOGO');
+q.questions.forEach((item,i)=>{html+=clip('row-'+i,'row stroke',0,duration,3,`<span class="number">${i+1}.</span><span id="answer-${i}">${esc(item.answer)}</span>`).replace('class="clip row stroke"',`style="top:${580+i*101}px" class="clip row stroke"`);});
+q.events.forEach((e,i)=>{const start=e.start/30,d=e.duration/30;html+=clip('caption-'+i,'caption stroke',start,d,4,esc(e.text));if(e.index>=0){html+=clip('card-'+i,'card',start,d,5,`<img src="assets/${q.questions[e.index].id}.svg" alt="Quiz logo">${e.kind==='reveal'?`<div class="answer">✓ ${esc(e.text)}</div>`:''}`);if(e.kind==='guess')html+=clip('timer-'+i,'timer',start,d,6,`<div class="fill" id="fill-${i}"></div>`);}else{html+=clip('message-'+i,'message stroke',start,d,5,`<div class="big">${e.kind==='outro'?'?/10':'10'}</div>${e.kind==='outro'?'DROP YOUR SCORE':'KEEP YOUR SCORE'}`);}});
+html+=`<audio id="full-mix" src="assets/audio/full-mix.wav" data-start="0" data-duration="${duration}" data-track-index="7" data-volume="1"></audio>`;
+html+=clip('footer','footer',0,duration,8,'PLAY • GUESS • SCORE');
+html+='</div><script src="gsap.min.js"></script><script>const tl=gsap.timeline({paused:true});';
+q.questions.forEach((_,i)=>{const t=q.events.find(e=>e.kind==='reveal'&&e.index===i).start/30;html+=`gsap.set('#answer-${i}',{opacity:0});tl.fromTo('#answer-${i}',{opacity:0},{opacity:1,duration:.01},${t});`;});
+q.events.forEach((e,i)=>{if(e.kind==='guess')html+=`tl.from('#card-${i}',{scale:.92,y:40,duration:.25},${e.start/30}).fromTo('#fill-${i}',{scaleX:1},{scaleX:0,duration:${e.duration/30},ease:'none'},${e.start/30});`;});
+html+=`window.__timelines={'momo-logos':tl};</script></html>`;
+html=html.replace('<style>','<style>@font-face{font-family:Poppins;font-weight:700;src:url("assets/poppins-latin-700-normal.woff2") format("woff2")}');
+fs.writeFileSync(dir+'/index.html',html);console.log('HyperFrames generated from shared quiz timeline.');

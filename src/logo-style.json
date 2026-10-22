@@ -1,0 +1,22 @@
+{
+  "background": "radial-gradient(ellipse at 65% 35%,#ff5757 0%,#850b0b 65%,#390505 100%)",
+  "patternColor": "#ffc91f",
+  "patternSpeed": 0.6,
+  "backgroundImage": "",
+  "backgroundImageFit": "cover",
+  "backgroundImagePosition": "center",
+  "backgroundImageDim": 0.2,
+  "patternOverImage": false,
+  "fontFamily": "Poppins, Arial, sans-serif",
+  "fontWeight": 700,
+  "titleBackground": "#F5F3F5",
+  "titleShadow": "#9e0a40",
+  "highlightColor": "#ffc91f",
+  "answerColor": "#8DFF68",
+  "titleFontSize": 72,
+  "captionFontSize": 54,
+  "logoSize": 390,
+  "patternOpacity": 0.14,
+  "voiceVolume": 1,
+  "sfxVolume": 0.65
+}

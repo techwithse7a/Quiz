@@ -1,0 +1,146 @@
+{
+  "a2": {
+    "file": "audio-library/voice/27e52018ea3a0b98f8ed764cd55824eb4fb9dd808196b5eadabf6ac9862f74a3.wav",
+    "text": "Nike!",
+    "duration": 0.696604,
+    "voice": "George - Warm, Captivating Storyteller",
+    "provider": "ElevenLabs",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_flash_v2_5"
+  },
+  "final": {
+    "file": "audio-library/voice/238ef04320ccb65adf4ca2181a8ff8ef7e4e0f97f38e759258c25e966b73169e.wav",
+    "text": "Final question! Can you get this one?",
+    "duration": 2.182688,
+    "voice": "George - Warm, Captivating Storyteller",
+    "provider": "ElevenLabs",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_flash_v2_5"
+  },
+  "a6": {
+    "file": "audio-library/voice/55d192fc7d5e7308755c4da554ac3a904c66824bfe1655ca18a3b2f3ab126d76.wav",
+    "text": "Snapchat!",
+    "duration": 0.928813,
+    "voice": "George - Warm, Captivating Storyteller",
+    "provider": "ElevenLabs",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_flash_v2_5"
+  },
+  "a10": {
+    "file": "audio-library/voice/79a6a103369df7462f2fb65f5dd268996b1023c3cc6e2f357582967702964395.wav",
+    "text": "Pinterest!",
+    "duration": 0.928813,
+    "voice": "George - Warm, Captivating Storyteller",
+    "provider": "ElevenLabs",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_flash_v2_5"
+  },
+  "intro": {
+    "file": "audio-library/voice/fb24f6bdeaa8969fde7e4ab516d738147ae850ea00f971c95f2e8d184b523226.wav",
+    "text": "Can you name ten brand logos? Let's find out!",
+    "duration": 2.739958,
+    "voice": "George - Warm, Captivating Storyteller",
+    "provider": "ElevenLabs",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_flash_v2_5"
+  },
+  "a7": {
+    "file": "audio-library/voice/733a0e59679278f8b41c189fbe9803a8a11516141efb8966e794d88b00195eb8.wav",
+    "text": "PlayStation!",
+    "duration": 1.068125,
+    "voice": "George - Warm, Captivating Storyteller",
+    "provider": "ElevenLabs",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_flash_v2_5"
+  },
+  "a5": {
+    "file": "audio-library/voice/6613f8c9a740af4819c4df75d455993ea2589d510cdc2747d488f773d0d843e3.wav",
+    "text": "Adidas!",
+    "duration": 0.789479,
+    "voice": "George - Warm, Captivating Storyteller",
+    "provider": "ElevenLabs",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_flash_v2_5"
+  },
+  "engage3": {
+    "file": "audio-library/voice/4c7c8925edfd3951a7233233e476d7c94be97101da150fa749b770ba709fda8a.wav",
+    "text": "Three down! How many have you guessed?",
+    "duration": 2.043375,
+    "voice": "George - Warm, Captivating Storyteller",
+    "provider": "ElevenLabs",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_flash_v2_5"
+  },
+  "outro": {
+    "file": "audio-library/voice/1cb66d7f3d5a6622d2a1f5634c0d428dcab98b2c163d831618bf44f4751c3747.wav",
+    "text": "How many did you get right? Comment your score, and follow Play With Momo!",
+    "duration": 4.318917,
+    "voice": "George - Warm, Captivating Storyteller",
+    "provider": "ElevenLabs",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_flash_v2_5"
+  },
+  "challenge": {
+    "file": "audio-library/voice/c757189feb83d61a137bca5233bc40fa5c7b1f30994b2e62fbe651287fc1bcfc.wav",
+    "text": "Think you can get a perfect ten?",
+    "duration": 1.764729,
+    "voice": "George - Warm, Captivating Storyteller",
+    "provider": "ElevenLabs",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_flash_v2_5"
+  },
+  "a8": {
+    "file": "audio-library/voice/be2fde56e9f7704b1172d7da34c394dda1e5c27e967ff338c6c3eb951ec6165b.wav",
+    "text": "Shell!",
+    "duration": 0.696604,
+    "voice": "George - Warm, Captivating Storyteller",
+    "provider": "ElevenLabs",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_flash_v2_5"
+  },
+  "engage6": {
+    "file": "audio-library/voice/8675109dc7e1f6e491c6f5cbf7e4fa335475a053b3364a066e4dc96c56b7cb27.wav",
+    "text": "Keep going! Remember your score!",
+    "duration": 1.996917,
+    "voice": "George - Warm, Captivating Storyteller",
+    "provider": "ElevenLabs",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_flash_v2_5"
+  },
+  "a3": {
+    "file": "audio-library/voice/6676101474cec7f15eec6224868a845752476c20635b98bce642efe755765b04.wav",
+    "text": "Spotify!",
+    "duration": 0.97525,
+    "voice": "George - Warm, Captivating Storyteller",
+    "provider": "ElevenLabs",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_flash_v2_5"
+  },
+  "a9": {
+    "file": "audio-library/voice/82c380832c0b234ff17f05a0075116e7b43aa892f1f1983dd8e633d73eef6cc7.wav",
+    "text": "Puma!",
+    "duration": 0.650167,
+    "voice": "George - Warm, Captivating Storyteller",
+    "provider": "ElevenLabs",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_flash_v2_5"
+  },
+  "a4": {
+    "file": "audio-library/voice/7324b97e00a700c05f3647c68ace369e515925d441b76009e7500d6ce5f5af5c.wav",
+    "text": "McDonald's!",
+    "duration": 0.97525,
+    "voice": "George - Warm, Captivating Storyteller",
+    "provider": "ElevenLabs",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_flash_v2_5"
+  },
+  "a1": {
+    "file": "audio-library/voice/4ca409a59df74559ef1339d5b764b755b2b36a82a340ba96f6c6aa1dd7707bdc.wav",
+    "text": "Apple!",
+    "duration": 0.650167,
+    "voice": "George - Warm, Captivating Storyteller",
+    "provider": "ElevenLabs",
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_flash_v2_5"
+  }
+}

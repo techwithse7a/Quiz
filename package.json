@@ -1,0 +1,41 @@
+{
+  "name": "play-with-momoo-quiz-shorts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "voice:check": "node --require ./scripts/windows-trust.cjs scripts/eleven-library.mjs --check",
+    "voice:plan": "node --require ./scripts/windows-trust.cjs scripts/eleven-library.mjs",
+    "voice:generate": "node --require ./scripts/windows-trust.cjs scripts/eleven-library.mjs --generate",
+    "logos:prepare": "node scripts/build-logo-quiz.mjs",
+    "logos:audio": "node scripts/mix-logo-audio.mjs",
+    "logos:studio": "npm run logos:audio && remotion studio src/logo-index.tsx",
+    "logos:render": "npm run logos:audio && remotion render src/logo-index.tsx MomoBrandLogos out/play-with-momo-brand-logos-001.mp4",
+    "logos:still": "remotion still src/logo-index.tsx MomoBrandLogos out/logo-preview.png --frame=250",
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts MomooQuizShort out/momoo-quiz.mp4",
+    "render:still": "remotion still src/index.ts MomooQuizShort out/momoo-quiz.png --frame=210",
+    "hf:preview": "hyperframes preview hyperframes",
+    "hf:lint": "hyperframes lint hyperframes",
+    "hf:render": "hyperframes render hyperframes",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^2.74.0",
+    "@fontsource/poppins": "^5.3.0",
+    "@remotion/cli": "^4.0.0",
+    "@remotion/google-fonts": "^4.0.0",
+    "@remotion/media": "^4.0.0",
+    "gsap": "^3.14.2",
+    "hyperframes": "latest",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.0",
+    "simple-icons": "16.35.0",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}

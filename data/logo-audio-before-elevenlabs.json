@@ -1,0 +1,130 @@
+﻿{
+    "a2":  {
+               "rate":  2,
+               "text":  "Nike!",
+               "provider":  "Windows Speech draft",
+               "duration":  1.034376,
+               "voice":  "Microsoft David Desktop",
+               "file":  "brand-logos-001/audio/a2.wav"
+           },
+    "final":  {
+                  "rate":  2,
+                  "text":  "Final question! Can you get this one?",
+                  "provider":  "Windows Speech draft",
+                  "duration":  2.999002,
+                  "voice":  "Microsoft David Desktop",
+                  "file":  "brand-logos-001/audio/final.wav"
+              },
+    "a6":  {
+               "rate":  2,
+               "text":  "Snapchat!",
+               "provider":  "Windows Speech draft",
+               "duration":  1.304399,
+               "voice":  "Microsoft David Desktop",
+               "file":  "brand-logos-001/audio/a6.wav"
+           },
+    "a10":  {
+                "rate":  2,
+                "text":  "Pinterest!",
+                "provider":  "Windows Speech draft",
+                "duration":  1.244263,
+                "voice":  "Microsoft David Desktop",
+                "file":  "brand-logos-001/audio/a10.wav"
+            },
+    "intro":  {
+                  "rate":  2,
+                  "text":  "Can you name ten brand logos? Let\u0027s find out!",
+                  "provider":  "Windows Speech draft",
+                  "duration":  3.443855,
+                  "voice":  "Microsoft David Desktop",
+                  "file":  "brand-logos-001/audio/intro.wav"
+              },
+    "a7":  {
+               "rate":  2,
+               "text":  "PlayStation!",
+               "provider":  "Windows Speech draft",
+               "duration":  1.37932,
+               "voice":  "Microsoft David Desktop",
+               "file":  "brand-logos-001/audio/a7.wav"
+           },
+    "a5":  {
+               "rate":  2,
+               "text":  "Adidas!",
+               "provider":  "Windows Speech draft",
+               "duration":  1.134376,
+               "voice":  "Microsoft David Desktop",
+               "file":  "brand-logos-001/audio/a5.wav"
+           },
+    "engage3":  {
+                    "rate":  2,
+                    "text":  "Three down! How many have you guessed?",
+                    "provider":  "Windows Speech draft",
+                    "duration":  2.949116,
+                    "voice":  "Microsoft David Desktop",
+                    "file":  "brand-logos-001/audio/engage3.wav"
+                },
+    "outro":  {
+                  "rate":  2,
+                  "text":  "How many did you get right? Comment your score, and follow Play With Momo!",
+                  "provider":  "Windows Speech draft",
+                  "duration":  4.683855,
+                  "voice":  "Microsoft David Desktop",
+                  "file":  "brand-logos-001/audio/outro.wav"
+              },
+    "challenge":  {
+                      "rate":  2,
+                      "text":  "Think you can get a perfect ten?",
+                      "provider":  "Windows Speech draft",
+                      "duration":  1.969116,
+                      "voice":  "Microsoft David Desktop",
+                      "file":  "brand-logos-001/audio/challenge.wav"
+                  },
+    "a8":  {
+               "rate":  2,
+               "text":  "Shell!",
+               "provider":  "Windows Speech draft",
+               "duration":  1.024444,
+               "voice":  "Microsoft David Desktop",
+               "file":  "brand-logos-001/audio/a8.wav"
+           },
+    "engage6":  {
+                    "rate":  2,
+                    "text":  "Keep going! Remember your score!",
+                    "provider":  "Windows Speech draft",
+                    "duration":  2.673651,
+                    "voice":  "Microsoft David Desktop",
+                    "file":  "brand-logos-001/audio/engage6.wav"
+                },
+    "a3":  {
+               "rate":  2,
+               "text":  "Spotify!",
+               "provider":  "Windows Speech draft",
+               "duration":  1.204399,
+               "voice":  "Microsoft David Desktop",
+               "file":  "brand-logos-001/audio/a3.wav"
+           },
+    "a9":  {
+               "rate":  2,
+               "text":  "Puma!",
+               "provider":  "Windows Speech draft",
+               "duration":  1.054376,
+               "voice":  "Microsoft David Desktop",
+               "file":  "brand-logos-001/audio/a9.wav"
+           },
+    "a4":  {
+               "rate":  2,
+               "text":  "McDonald\u0027s!",
+               "provider":  "Windows Speech draft",
+               "duration":  1.259365,
+               "voice":  "Microsoft David Desktop",
+               "file":  "brand-logos-001/audio/a4.wav"
+           },
+    "a1":  {
+               "rate":  2,
+               "text":  "Apple!",
+               "provider":  "Windows Speech draft",
+               "duration":  0.984399,
+               "voice":  "Microsoft David Desktop",
+               "file":  "brand-logos-001/audio/a1.wav"
+           }
+}
